@@ -2,7 +2,7 @@
 // adds a menu with a menu item that applies a style to the currently selected text
 function onOpen() {
   DocumentApp.getUi()
-  .createMenu('Extras')
+  .createMenu('Data Experience')
   .addItem('Apply code style', 'applyCodeStyle')
   .addToUi();
 }
@@ -11,7 +11,7 @@ function onOpen() {
 var style = {
   bold: false,
   backgroundColor: "#DDDDDD",
-  fontFamily: DocumentApp.FontFamily.CONSOLAS,
+  fontFamily: 'Share Tech Mono',
   fontSize: 9
 };
 
